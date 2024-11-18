@@ -1,0 +1,19 @@
+{
+	"name": "gulp-a2c-front-2024",
+	"version": "1.0.0",
+	"description": "Gulp A2C Front 2024",
+	"main": "gulpfile.js",
+	"dependencies": {
+		"gulp-concat": "*",
+		"gulp-sass": "*",
+		"gulp-uglify": "*",
+		"sass": "^1.42.1"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-watch": "*"
+	},
+	"scripts": {
+		"test": "gulp"
+	}
+}

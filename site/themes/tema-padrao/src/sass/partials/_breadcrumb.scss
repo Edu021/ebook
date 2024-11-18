@@ -1,0 +1,78 @@
+.breadcrumb{
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+    background-color: transparent;
+    position: absolute;
+    top: 10rem;
+    z-index: 8999;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        a{
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: normal;
+
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+
+            &:hover{
+                -moz-transition: all 0.3s;
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+
+                text-decoration: underline;
+            }
+        }
+
+        svg{
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    }
+}
+
+.breadcrumb-none{
+    display: none;
+}
+
+.type-white{
+
+    a{
+        color: var(--text-color);
+
+        svg{
+            fill: #F8F9FA;
+        }
+    }
+
+    svg{
+        fill: #F8F9FA;
+    }
+}
+
+.type-black{
+    a{
+        color: #202833;
+
+        svg{
+            fill: #202833;
+        }
+    }
+
+    svg{
+        fill: #202833;
+    }
+}
+
+.breadcrumb-blue {
+    background-color: var(--secondary-color);
+}

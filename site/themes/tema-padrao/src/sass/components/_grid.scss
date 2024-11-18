@@ -1,0 +1,110 @@
+.row {
+	box-sizing: border-box;
+	display: flex;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -1rem;
+	margin-left: -1rem;
+}
+
+.col {
+	box-sizing: border-box;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	max-width: 100%;
+	flex-basis: 100%;
+
+	&.-md1 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 8.33333333%;
+			max-width: 8.33333333%;
+		}
+	}
+
+	&.-md2 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 16.66666667%;
+			max-width: 16.66666667%;
+		}
+	}
+
+	&.-md3 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 25%;
+			max-width: 25%;
+		}
+	}
+
+	&.-md4 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 33.33333333%;
+			max-width: 33.33333333%;
+		}
+	}
+
+	&.-md5 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 41.66666667%;
+			max-width: 41.66666667%;
+		}
+	}
+
+	&.-md6 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 50%;
+			max-width: 50%;
+		}
+	}
+
+	&.-md7 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 58.33333333%;
+			max-width: 58.33333333%;
+		}
+	}
+
+	&.-md8 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 66.66666667%;
+			max-width: 66.66666667%;
+		}
+	}
+
+	&.-md9 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 75%;
+			max-width: 75%;
+		}
+	}
+
+	&.-md10 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 83.33333333%;
+			max-width: 83.33333333%;
+		}
+	}
+
+	&.-md11 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 91.66666667%;
+			max-width: 91.66666667%;
+		}
+	}
+
+	&.-md12 {
+		@media (min-width: $screen-lg) {
+			flex-basis: 100%;
+			max-width: 100%;
+		}
+	}
+}

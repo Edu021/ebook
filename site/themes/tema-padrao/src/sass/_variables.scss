@@ -1,0 +1,31 @@
+:root {
+	--primary-color: #50f4e8;
+  --secondary-color: #000;
+  --terciary-color: #F7C330;
+  --text-color: #F8F9FA;
+  --text-color-secondary: #1773AE;
+	--link-color: #444444;
+	--font-size: 1.6em;
+	--font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+}
+
+$screen-sm: 576px; // Extra small screen / phone
+$screen-md: 768px; // Small screen / tablet
+$screen-lg: 992px; // Medium screen / desktop
+$screen-xl: 1200px; // Large screen / wide desktop
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
+       url('../fonts/SpaceGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+       url('../fonts/Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

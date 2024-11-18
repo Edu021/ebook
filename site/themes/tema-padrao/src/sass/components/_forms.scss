@@ -1,0 +1,25 @@
+.form-control,
+.wpcf7-form-control:not([type='submit']) {
+	-webkit-appearance: none;
+	display: block;
+    padding: 10px 10px;   
+    width: 100%;
+    border: none;
+    border: solid 2px var(--secondary-color);
+    border-radius: 0;
+    background-color: transparent;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--secondary-color);
+
+	&:-internal-autofill-selected {
+		-webkit-appearance: none !important;
+    }
+    
+    &:focus{
+        outline: none;
+    }
+}

@@ -12,7 +12,7 @@ if (!defined('WPINC')) {
 session_start();
 
 global $configSite;
-$link_checkout = 'https://pay.kiwify.com.br/umvXfs8';
+$link_checkout = 'https://pay.kiwify.com.br/4nryenC';
 
 ?>
 
